@@ -18,6 +18,6 @@ Note: the animation screen is 500 by 500 pixels.
 In order to run the animation, open the computer's command line.
 Navigate to the "LineAnimate" directory, then enter the following:
 ```
-sbt "run-main lineAnimate.LineAnimation resources/<filename>"
+sbt "run-main lineAnimate.LineAnimation resources/filename.txt"
 ```
-<filename> should be the name of the new text file you created.
+filename.txt should be replaced with the name of the new text file you created.
