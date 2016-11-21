@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mRunning lineAnimate.LineAnimation resources/zigzag.txt[0m
+[0m[[0minfo[0m] [0mRunning lineAnimate.LineAnimation resources/spiral.txt[0m
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
 [0m[[0mdebug[0m] [0m	/Users/annachung/Documents/1 Projects/Domain Specific Languages/Line-Animation-DSL/LineAnimate/target/scala-2.11/classes[0m
