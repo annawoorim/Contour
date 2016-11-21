@@ -1,0 +1,53 @@
+package lineAnimate
+import processing.core._
+
+class RulesIR extends PApplet {
+  var currX, currY: Float = 0
+  
+  def Draw (rules: List[RulesIR]) {    
+    var x, y: Float = 50
+    
+    point(x, y)
+
+  }
+  
+  def convertToScalaRule = {
+    this match {
+      case Right(x) => currX+=1
+      case Left(x) => currX-=1
+      case Up(x) => currY-=1
+      case Down(x) => currY+=1
+    }
+  }
+}
+
+case class Start (startX: Int, startY: Int) extends RulesIR {
+  currX = startX
+  currY = startY
+}
+
+case class Right (moveRight: Float) extends RulesIR {
+  /*
+  if(rule < moveRight && startRule) {
+    currX+=1
+    rule+=1;
+  }
+  if(rule == 100) 
+    nextRule = true 
+  */
+}
+
+case class Left (moveLeft: Float) extends RulesIR {
+  val bound = currX - moveLeft
+  if (currX > bound && currY == currY) { currX-=1 }
+}
+
+case class Up (moveUp: Float) extends RulesIR {
+  val bound = currY - moveUp
+  if (currY > bound && currX == currX) { currY-=1 }
+}
+  
+case class Down (moveDown: Float) extends RulesIR {
+  val bound = currY + moveDown
+  if (currY < bound && currX == currX) { currY+=1 }
+}

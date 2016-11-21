@@ -1,0 +1,65 @@
+package lineAnimate
+import processing.core._
+import java.io.FileNotFoundException
+import scalafx.application.JFXApp
+
+object LineAnimation extends RulesIR {
+  def main(args: Array[String]) {
+    //PApplet.main(Array[String]("lineAnimate.LineAnimation"))
+    //PApplet.main(Array[String](args(0)))
+    PApplet.main(Array[String]("/LineAnimate/src/main/scala/lineAnimate/spiral.txt"))
+  }  
+}
+
+class LineAnimation extends PApplet {
+    
+  // Parse rules file
+  //val programFilename = parameters.raw(0)
+  val programFilename = "lineAnimate.spiral.txt"
+  System.out.println(args(0))
+  val program = Parser (
+    try {
+      io.Source.fromFile(programFilename).mkString
+    }
+    catch { // Error handling: non-existent file
+      case e: FileNotFoundException ⇒ { println(e.getMessage()); sys.exit(1) }
+    }
+  )
+  
+  var pos : Position = _
+  var rules : List[RulesIR] = _
+  var posMoved : Array[Moved] = _
+  var startRule : Array[Start] =_
+  
+  // Results of parsing
+  program match {      
+  // Check syntax errors
+  case e: Parser.NoSuccess  ⇒ println(e)
+ 
+  // Successful parse!
+  case Parser.Success(t, _) ⇒ {
+    pos = program.get.head.convertToPosition
+    rules = program.get.tail
+    posMoved = LineAnimation.posRules(rules)    
+    startRule = LineAnimation.startRules(rules)
+  }
+  }
+  
+  override def settings () {
+      size(500, 500)
+  }
+
+  override def setup() {
+    stroke(255)
+    background(0)
+    frameRate(300)
+  }
+  
+  override def draw() {
+    point(pos.currX, pos.currY)
+    LineAnimation.runAnimation(rules, posMoved, startRule, pos)
+  } 
+  
+  // A string that describes how to use the program 
+  def usage = "usage: lineAnimate.LineAnimation <rules-file>"
+}

@@ -1,0 +1,60 @@
+package lineAnimate
+import processing.core._
+
+class RulesIR extends PApplet {
+  var currX, currY: Float = 0
+  
+  def x : Float = currX
+  
+  def y : Float = currY
+  
+  def Draw (rules: List[RulesIR]) {    
+
+  }
+  
+  def createRule (rule: RulesIR, currentRule: Int, currentStart: Boolean, listRules: List[Int], 
+      listStarts : List[Boolean]) {
+    0 :: listRules
+    
+    
+    var currRule : Int = currentRule
+    
+    if(currRule < rule.positionToMove && currentStart) {
+      rule.modifyPosition
+      currRule+=1
+    }
+    if(currRule == 100) 
+       false :: listStarts
+  }
+  
+  def modifyPosition {
+    this match {
+      case Right(x) => currX+=1
+      case Left(x) => currX-=1
+      case Up(x) => currY-=1
+      case Down(x) => currY+=1
+    }
+  }
+  
+  def positionToMove : Float = {
+    this match {
+      case Right(x) => x
+      case Left(x) => x
+      case Up(x) => x
+      case Down(x) => x
+    }
+  }
+}
+
+case class Start (startX: Int, startY: Int) extends RulesIR {
+  currX = startX
+  currY = startY
+}
+
+case class Right (moveRight: Float) extends RulesIR 
+
+case class Left (moveLeft: Float) extends RulesIR 
+
+case class Up (moveUp: Float) extends RulesIR 
+  
+case class Down (moveDown: Float) extends RulesIR 

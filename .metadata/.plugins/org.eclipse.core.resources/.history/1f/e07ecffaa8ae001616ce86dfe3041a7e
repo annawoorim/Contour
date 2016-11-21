@@ -1,0 +1,92 @@
+package lineAnimate
+import processing.core._
+
+class RulesIR extends PApplet {
+  // Current (x,y) position of the end point of the line
+  //var currX, currY: Float = 0
+  
+  def drawRules (rules: List[RulesIR]) { 
+    var unitsMoved = new Array[Int](rules.size)
+    var startRule = new Array[Boolean](rules.size)
+    
+    var i = 0
+    for (i <- 1 to rules.size) {
+      
+    }
+  }
+  
+  /*
+   * Create conditional statements for an animation rule
+   */
+  def createRule (rule: RulesIR, posMoved: Moved, currentRule: Start, nextRule: Start) {   
+    if(posMoved.num < rule.positionToMove && currentStart) {
+      //rule.modifyPosition
+      currRule+=1
+    }
+    if(currRule == 100) 
+       false :: listStarts
+  }
+  
+  /*
+   * Shift x or y position of end point of the line
+   */
+  def modifyPosition(pos : Position) {
+    this match {
+      case Right(x) => pos.incX
+      case Left(x) => pos.decX
+      case Up(x) => pos.decY
+      case Down(x) => pos.incY
+    }
+  }
+  
+  /*
+   * Number of pixels for line to move 
+   */
+  def positionToMove : Float = {
+    this match {
+      case Right(x) => x
+      case Left(x) => x
+      case Up(x) => x
+      case Down(x) => x
+    }
+  }
+}
+
+/*
+ * Current position of the line
+ */
+case class Position (x: Int, y: Int) extends RulesIR {
+  var currX : Float = x
+  var currY : Float = y
+  
+  def incX {  currX+=1  }
+  def incY {  currY+=1  }
+  def decX {  currX-=1  }
+  def decY {  currY-=1  }
+}
+
+/*
+ * Number of units the line has moved based on a rule
+ */
+case class Moved() extends RulesIR {
+  var num : Int = 0
+  
+  def inc {  num+=1  }
+}
+
+/*
+ * Determines whether rule should be executed
+ */
+case class Start() extends RulesIR {
+  var currRule : Boolean = false
+  
+  def set {  currRule = true  } 
+}
+
+/*
+ * Valid rules - line can move right, left, up, or down
+ */
+case class Right (moveRight: Float) extends RulesIR 
+case class Left (moveLeft: Float) extends RulesIR
+case class Up (moveUp: Float) extends RulesIR 
+case class Down (moveDown: Float) extends RulesIR 

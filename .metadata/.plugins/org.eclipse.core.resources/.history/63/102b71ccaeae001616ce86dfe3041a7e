@@ -1,0 +1,22 @@
+package lineAnimate
+import processing.core._
+
+object AnimationTest { 
+  def main(args: Array[String]) {
+    PApplet.main(Array[String]("AnimationTest"))
+  }
+}
+
+class AnimationTest extends PApplet {
+  override def settings () {
+    size(500, 500)
+  }
+  
+  override def setup() {
+    stroke(255)
+    background(0)
+    frameRate(300)
+  }
+    
+  
+}
