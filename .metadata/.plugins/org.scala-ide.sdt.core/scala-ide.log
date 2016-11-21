@@ -1925,3 +1925,15 @@ java.lang.AssertionError: Tree without symbol that is not a select: lineAnimate
 2016-11-20 16:05:04,358  WARN [Worker-25] - ScalaProject - Project LineAnimate runs on platform default installation.
 2016-11-20 16:05:05,921  WARN [Worker-25] - ScalaProject - Project LineAnimate has platform default sourceLevel.
 2016-11-20 16:05:05,921  WARN [Worker-25] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-20 23:30:24,136  WARN [main] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-20 23:30:24,142  WARN [main] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-20 23:30:24,151  WARN [main] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-20 23:30:24,151  WARN [main] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-20 23:30:24,157  WARN [main] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-20 23:30:24,158  WARN [main] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-20 23:30:27,922  WARN [main] - ScalaProject - Project Example Line Animations has platform default sourceLevel.
+2016-11-20 23:30:27,922  WARN [main] - ScalaProject - Project Example Line Animations runs on platform default installation.
+2016-11-20 23:30:31,234  WARN [Worker-0] - ScalaProject - Project piconot has platform default sourceLevel.
+2016-11-20 23:30:31,237  WARN [Worker-0] - ScalaProject - Project piconot runs on platform default installation.
+2016-11-20 23:30:31,238  WARN [Worker-0] - ScalaProject - Project piconot has platform default sourceLevel.
+2016-11-20 23:30:31,238  WARN [Worker-0] - ScalaProject - Project piconot runs on platform default installation.
