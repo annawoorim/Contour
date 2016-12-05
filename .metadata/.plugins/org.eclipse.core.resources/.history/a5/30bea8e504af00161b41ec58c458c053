@@ -1,9 +1,0 @@
-package lineAnimate
-import org.scalatest.Matchers
-import org.scalatest.FunSuite
-
-class TestParser extends FunSuite with Matchers{
-  test ("check first rule") {
-    
-  }
-}

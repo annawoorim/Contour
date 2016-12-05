@@ -1,6 +1,0 @@
-package lineAnimate
-
-
-class Parser extends RegexParsers {
-  
-}

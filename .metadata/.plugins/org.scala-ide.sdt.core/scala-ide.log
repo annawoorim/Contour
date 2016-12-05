@@ -1937,3 +1937,592 @@ java.lang.AssertionError: Tree without symbol that is not a select: lineAnimate
 2016-11-20 23:30:31,237  WARN [Worker-0] - ScalaProject - Project piconot runs on platform default installation.
 2016-11-20 23:30:31,238  WARN [Worker-0] - ScalaProject - Project piconot has platform default sourceLevel.
 2016-11-20 23:30:31,238  WARN [Worker-0] - ScalaProject - Project piconot runs on platform default installation.
+2016-11-21 01:41:26,921  WARN [Worker-10] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-21 01:41:26,927  WARN [Worker-10] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-21 01:41:27,005  WARN [Worker-10] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-21 01:41:27,005  WARN [Worker-10] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-21 01:41:27,382  WARN [Worker-10] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-21 01:41:27,382  WARN [Worker-10] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-23 21:49:49,775  WARN [main] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-23 21:49:49,790  WARN [main] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-23 21:49:49,824  WARN [main] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-23 21:49:49,826  WARN [main] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-23 21:49:49,864  WARN [main] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-23 21:49:49,865  WARN [main] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-23 21:50:08,777  WARN [main] - ScalaProject - Project Example Line Animations has platform default sourceLevel.
+2016-11-23 21:50:08,779  WARN [main] - ScalaProject - Project Example Line Animations runs on platform default installation.
+2016-11-23 21:50:18,196  WARN [Worker-0] - ScalaProject - Project piconot has platform default sourceLevel.
+2016-11-23 21:50:18,201  WARN [Worker-0] - ScalaProject - Project piconot runs on platform default installation.
+2016-11-23 21:50:18,202  WARN [Worker-0] - ScalaProject - Project piconot has platform default sourceLevel.
+2016-11-23 21:50:18,202  WARN [Worker-0] - ScalaProject - Project piconot runs on platform default installation.
+2016-11-23 21:50:24,742  WARN [main] - ScalaProject - Project Example Line Animations has platform default sourceLevel.
+2016-11-23 21:50:24,743  WARN [main] - ScalaProject - Project Example Line Animations runs on platform default installation.
+2016-11-23 21:50:34,392 ERROR [Worker-2] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2016-11-23 21:50:34,393 ERROR [Worker-2] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2016-11-23 21:50:34,393 ERROR [Worker-2] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2016-11-23 21:52:00,946  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-11-24 00:06:48,468  WARN [main] - ScalaProject - Project Example Line Animations has platform default sourceLevel.
+2016-11-24 00:06:48,471  WARN [main] - ScalaProject - Project Example Line Animations runs on platform default installation.
+2016-11-24 00:06:48,479  WARN [main] - ScalaProject - Project Example Line Animations has platform default sourceLevel.
+2016-11-24 00:06:48,479  WARN [main] - ScalaProject - Project Example Line Animations runs on platform default installation.
+2016-11-24 00:06:54,708  WARN [Worker-4] - ScalaProject - Project piconot has platform default sourceLevel.
+2016-11-24 00:06:54,711  WARN [Worker-4] - ScalaProject - Project piconot runs on platform default installation.
+2016-11-24 00:06:54,713  WARN [Worker-4] - ScalaProject - Project piconot has platform default sourceLevel.
+2016-11-24 00:06:54,713  WARN [Worker-4] - ScalaProject - Project piconot runs on platform default installation.
+2016-11-24 00:06:54,713  WARN [Worker-4] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:06:54,714  WARN [Worker-4] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:06:54,714  WARN [Worker-4] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:06:54,714  WARN [Worker-4] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:10:29,379  WARN [main] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:10:29,384  WARN [main] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:10:42,635 ERROR [Worker-1] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2016-11-24 00:10:42,643 ERROR [Worker-1] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2016-11-24 00:10:42,643 ERROR [Worker-1] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2016-11-24 00:17:43,819  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2953
+2016-11-24 00:17:43,822  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2953
+2016-11-24 00:17:44,896  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2953
+2016-11-24 00:17:44,897  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2953
+2016-11-24 00:17:52,242  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2953
+2016-11-24 00:17:52,243  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2953
+2016-11-24 00:17:55,076  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2953
+2016-11-24 00:17:55,076  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2953
+2016-11-24 00:17:56,877  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2953
+2016-11-24 00:17:56,877  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2953
+2016-11-24 00:18:01,678  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2953
+2016-11-24 00:18:01,679  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2953
+2016-11-24 00:23:24,011 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 00:23:24,122 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 00:23:24,122 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 00:23:24,122 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 00:23:44,887  WARN [Worker-5] - ScalaProject - Project Example Line Animations has platform default sourceLevel.
+2016-11-24 00:23:44,887  WARN [Worker-5] - ScalaProject - Project Example Line Animations runs on platform default installation.
+2016-11-24 00:23:44,978  WARN [Worker-5] - ScalaProject - Project Example Line Animations has platform default sourceLevel.
+2016-11-24 00:23:44,978  WARN [Worker-5] - ScalaProject - Project Example Line Animations runs on platform default installation.
+2016-11-24 00:23:52,174  WARN [Worker-5] - ScalaProject - Project piconot has platform default sourceLevel.
+2016-11-24 00:23:52,175  WARN [Worker-5] - ScalaProject - Project piconot runs on platform default installation.
+2016-11-24 00:23:52,180  WARN [Worker-5] - ScalaProject - Project piconot has platform default sourceLevel.
+2016-11-24 00:23:52,180  WARN [Worker-5] - ScalaProject - Project piconot runs on platform default installation.
+2016-11-24 00:23:52,316  WARN [Worker-5] - ScalaProject - Project piconot has platform default sourceLevel.
+2016-11-24 00:23:52,316  WARN [Worker-5] - ScalaProject - Project piconot runs on platform default installation.
+2016-11-24 00:23:59,499  WARN [Worker-6] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:23:59,499  WARN [Worker-6] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:23:59,506  WARN [Worker-6] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:23:59,506  WARN [Worker-6] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:24:05,759  WARN [Worker-6] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:24:05,760  WARN [Worker-6] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:24:41,694  WARN [Worker-1] - ScalaProject - Project Example Line Animations has platform default sourceLevel.
+2016-11-24 00:24:41,702  WARN [Worker-1] - ScalaProject - Project Example Line Animations runs on platform default installation.
+2016-11-24 00:25:03,441  WARN [Worker-5] - ScalaProject - Project Example Line Animations has platform default sourceLevel.
+2016-11-24 00:25:03,450  WARN [Worker-5] - ScalaProject - Project Example Line Animations runs on platform default installation.
+2016-11-24 00:25:34,240  WARN [Worker-1] - ScalaProject - Project Example Line Animations has platform default sourceLevel.
+2016-11-24 00:25:34,241  WARN [Worker-1] - ScalaProject - Project Example Line Animations runs on platform default installation.
+2016-11-24 00:28:20,845 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 00:28:20,846 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 00:28:20,846 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 00:28:31,481  WARN [Worker-1] - ScalaProject - Project Example Line Animations has platform default sourceLevel.
+2016-11-24 00:28:31,481  WARN [Worker-1] - ScalaProject - Project Example Line Animations runs on platform default installation.
+2016-11-24 00:29:03,339  WARN [Worker-5] - ScalaProject - Project Example Line Animations has platform default sourceLevel.
+2016-11-24 00:29:03,348  WARN [Worker-5] - ScalaProject - Project Example Line Animations runs on platform default installation.
+2016-11-24 00:29:28,728  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-11-24 00:32:09,794  WARN [Worker-5] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:32:09,796  WARN [Worker-5] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:32:13,072  WARN [Worker-5] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:32:13,072  WARN [Worker-5] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:34:10,082  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:34:10,087  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:34:17,344 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 00:34:17,344 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 00:34:17,344 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 00:34:20,731  WARN [Worker-6] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:34:20,733  WARN [Worker-6] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:34:22,465  WARN [Worker-6] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:34:22,466  WARN [Worker-6] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:35:00,807  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:35:00,808  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:35:02,145  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:35:02,145  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:35:06,330  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:35:06,330  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:35:10,465  WARN [Worker-2] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:35:10,466  WARN [Worker-2] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:35:11,811  WARN [Worker-2] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:35:11,811  WARN [Worker-2] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:36:35,431 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 00:36:35,431 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 00:36:35,431 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 00:44:48,132  WARN [Worker-4] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:44:48,133  WARN [Worker-4] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:44:58,906  WARN [Worker-4] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:44:58,906  WARN [Worker-4] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:45:19,347  WARN [Worker-5] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:45:19,356  WARN [Worker-5] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:45:19,376  WARN [Worker-5] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:45:19,376  WARN [Worker-5] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:46:54,747 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 00:46:54,755 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 00:47:05,479 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 00:47:05,480 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 00:47:05,480 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 00:47:15,413  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:47:15,413  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:47:26,375  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:47:26,375  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:47:28,715  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:47:28,715  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:47:30,570  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:47:30,570  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:49:04,257  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:49:04,260  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:49:04,282  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:49:04,282  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:50:08,007  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:50:08,007  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:50:11,452  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:50:11,452  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:51:04,362  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:51:04,363  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:51:11,244  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:51:11,244  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:52:52,271  WARN [Worker-7] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:52:52,271  WARN [Worker-7] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:52:59,300  WARN [Worker-7] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:52:59,300  WARN [Worker-7] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:54:48,469  WARN [Worker-4] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:54:48,479  WARN [Worker-4] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:54:55,660  WARN [Worker-4] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:54:55,661  WARN [Worker-4] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:55:54,376  WARN [Worker-6] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:55:54,385  WARN [Worker-6] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:55:54,406  WARN [Worker-6] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:55:54,406  WARN [Worker-6] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:56:23,178  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:56:23,186  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:56:23,209  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:56:23,209  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:57:46,299  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:57:46,309  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:57:53,317  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:57:53,317  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:58:39,306  WARN [Worker-5] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:58:39,306  WARN [Worker-5] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:59:00,358  WARN [Worker-1] - ScalaProject - Project Example Line Animations has platform default sourceLevel.
+2016-11-24 00:59:00,360  WARN [Worker-1] - ScalaProject - Project Example Line Animations runs on platform default installation.
+2016-11-24 00:59:01,057  WARN [Worker-1] - ScalaProject - Project Example Line Animations has platform default sourceLevel.
+2016-11-24 00:59:01,057  WARN [Worker-1] - ScalaProject - Project Example Line Animations runs on platform default installation.
+2016-11-24 00:59:01,123  WARN [Worker-1] - ScalaProject - Project Example Line Animations has platform default sourceLevel.
+2016-11-24 00:59:01,124  WARN [Worker-1] - ScalaProject - Project Example Line Animations runs on platform default installation.
+2016-11-24 00:59:01,866  WARN [Worker-4] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:59:01,882  WARN [Worker-4] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:59:01,883  WARN [Worker-4] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:59:01,883  WARN [Worker-4] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:59:02,126  WARN [Worker-4] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:59:02,126  WARN [Worker-4] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:59:02,139  WARN [Worker-4] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:59:02,139  WARN [Worker-4] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:59:04,161  WARN [main] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:59:04,161  WARN [main] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:59:07,753  WARN [Worker-4] - ScalaProject - Project piconot has platform default sourceLevel.
+2016-11-24 00:59:07,754  WARN [Worker-4] - ScalaProject - Project piconot runs on platform default installation.
+2016-11-24 00:59:07,754  WARN [Worker-4] - ScalaProject - Project piconot has platform default sourceLevel.
+2016-11-24 00:59:07,754  WARN [Worker-4] - ScalaProject - Project piconot runs on platform default installation.
+2016-11-24 00:59:07,820  WARN [Worker-4] - ScalaProject - Project piconot has platform default sourceLevel.
+2016-11-24 00:59:07,820  WARN [Worker-4] - ScalaProject - Project piconot runs on platform default installation.
+2016-11-24 00:59:07,830  WARN [Worker-4] - ScalaProject - Project piconot has platform default sourceLevel.
+2016-11-24 00:59:07,830  WARN [Worker-4] - ScalaProject - Project piconot runs on platform default installation.
+2016-11-24 00:59:07,890  WARN [Worker-4] - ScalaProject - Project piconot has platform default sourceLevel.
+2016-11-24 00:59:07,890  WARN [Worker-4] - ScalaProject - Project piconot runs on platform default installation.
+2016-11-24 00:59:34,834  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-11-24 00:59:36,807  WARN [Worker-5] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:59:36,808  WARN [Worker-5] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:59:38,809 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 00:59:39,341  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:59:39,341  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:59:54,037  WARN [Worker-2] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:59:54,038  WARN [Worker-2] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 00:59:58,326  WARN [Worker-2] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 00:59:58,326  WARN [Worker-2] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:00:24,495  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:00:24,496  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:00:24,565  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:00:24,566  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:00:33,424 ERROR [Worker-6] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2016-11-24 01:00:33,424 ERROR [Worker-6] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2016-11-24 01:00:33,425 ERROR [Worker-6] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2016-11-24 01:01:24,735  WARN [Worker-6] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:01:24,736  WARN [Worker-6] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:01:24,768  WARN [Worker-6] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:01:24,769  WARN [Worker-6] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:01:55,085 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:01:55,086 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:01:55,978  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:01:55,979  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:01:56,007  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:01:56,007  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:02:00,085  WARN [Worker-5] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:02:00,085  WARN [Worker-5] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:02:00,115  WARN [Worker-5] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:02:00,115  WARN [Worker-5] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:02:16,392  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:02:16,392  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:02:16,418  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:02:16,418  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:02:22,833  WARN [Worker-2] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:02:22,833  WARN [Worker-2] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:02:22,858  WARN [Worker-2] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:02:22,858  WARN [Worker-2] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:02:30,086  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:02:30,094  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:02:30,121  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:02:30,121  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:02:42,789  WARN [Worker-4] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:02:42,791  WARN [Worker-4] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:02:42,818  WARN [Worker-4] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:02:42,818  WARN [Worker-4] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:02:48,659  WARN [Worker-4] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:02:48,659  WARN [Worker-4] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:02:48,680  WARN [Worker-4] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:02:48,680  WARN [Worker-4] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:03:01,170  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:03:01,178  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:03:01,203  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:03:01,203  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:03:07,178  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:03:07,178  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:03:07,203  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:03:07,203  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:03:14,384  WARN [Worker-5] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:03:14,392  WARN [Worker-5] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:03:14,422  WARN [Worker-5] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:03:14,422  WARN [Worker-5] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:03:29,819  WARN [Worker-4] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:03:29,819  WARN [Worker-4] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:03:29,844  WARN [Worker-4] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:03:29,844  WARN [Worker-4] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:03:45,292  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:03:45,293  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:03:45,338  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:03:45,338  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:04:05,931  WARN [main] - ScalaProject - Project Example Line Animations has platform default sourceLevel.
+2016-11-24 01:04:05,931  WARN [main] - ScalaProject - Project Example Line Animations runs on platform default installation.
+2016-11-24 01:04:37,361 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:04:37,361 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:04:37,361 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:05:00,567  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 3424
+2016-11-24 01:05:55,992  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:05:55,996  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:06:06,774  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:06:06,774  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:07:26,345 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:07:26,359 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:07:26,361 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:08:20,405  WARN [Worker-5] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:08:20,407  WARN [Worker-5] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:08:22,662  WARN [Worker-5] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:08:22,663  WARN [Worker-5] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:10:16,853  WARN [Worker-7] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:10:16,854  WARN [Worker-7] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:10:24,592  WARN [Worker-7] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:10:24,592  WARN [Worker-7] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:11:02,447  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:11:02,448  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:11:02,475  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:11:02,475  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:11:46,122  WARN [Worker-5] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:11:46,130  WARN [Worker-5] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:11:46,157  WARN [Worker-5] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:11:46,157  WARN [Worker-5] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:12:13,358  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:12:13,366  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:12:13,397  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:12:13,397  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:12:42,665 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:12:42,744 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:12:42,744 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:12:42,744 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:12:49,489  WARN [Worker-2] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:12:49,490  WARN [Worker-2] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:12:49,513  WARN [Worker-2] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:12:49,514  WARN [Worker-2] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:13:20,838  WARN [Worker-2] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:13:20,838  WARN [Worker-2] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:13:20,858  WARN [Worker-2] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:13:20,859  WARN [Worker-2] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:13:44,663  WARN [Worker-4] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:13:44,671  WARN [Worker-4] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:13:44,694  WARN [Worker-4] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:13:44,694  WARN [Worker-4] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:16:46,292  WARN [Worker-5] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:16:46,292  WARN [Worker-5] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:16:46,319  WARN [Worker-5] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:16:46,320  WARN [Worker-5] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:17:42,776 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:17:42,776 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:17:42,776 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:17:42,776 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:17:42,776 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:17:42,776 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:17:42,776 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:17:42,777 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:21:44,343  WARN [Worker-2] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:21:44,350  WARN [Worker-2] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:21:44,377  WARN [Worker-2] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:21:44,377  WARN [Worker-2] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:22:01,874  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:22:01,875  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:22:01,907  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:22:01,907  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:24:26,897  WARN [Worker-7] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:24:26,897  WARN [Worker-7] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:24:26,913  WARN [Worker-7] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:24:26,913  WARN [Worker-7] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:25:28,116  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:25:28,117  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:25:28,142  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:25:28,142  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:25:40,621  WARN [Worker-8] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:25:40,622  WARN [Worker-8] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:25:40,644  WARN [Worker-8] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:25:40,644  WARN [Worker-8] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:25:42,268 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:42,268 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:42,269 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:42,269 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:42,269 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:42,270 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:42,270 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:42,270 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:42,270 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:42,270 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:42,270 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:42,270 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:42,271 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:42,271 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:42,271 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:42,271 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:42,271 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:42,271 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:42,271 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:42,271 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:42,271 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:42,271 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-24 01:25:43,261  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:25:43,261  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:25:43,274  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:25:43,275  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:26:04,528  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:26:04,528  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:26:04,548  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:26:04,548  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:26:39,665  WARN [Worker-4] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:26:39,666  WARN [Worker-4] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-24 01:26:39,687  WARN [Worker-4] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-24 01:26:39,688  WARN [Worker-4] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-28 13:15:39,985  WARN [main] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-28 13:15:39,992  WARN [main] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-28 13:15:40,000  WARN [main] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-28 13:15:40,000  WARN [main] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-28 13:15:40,007  WARN [main] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-28 13:15:40,007  WARN [main] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-28 13:15:44,049  WARN [main] - ScalaProject - Project Example Line Animations has platform default sourceLevel.
+2016-11-28 13:15:44,049  WARN [main] - ScalaProject - Project Example Line Animations runs on platform default installation.
+2016-11-28 13:15:45,940  WARN [Worker-0] - ScalaProject - Project piconot has platform default sourceLevel.
+2016-11-28 13:15:45,943  WARN [Worker-0] - ScalaProject - Project piconot runs on platform default installation.
+2016-11-28 13:15:45,943  WARN [Worker-0] - ScalaProject - Project piconot has platform default sourceLevel.
+2016-11-28 13:15:45,943  WARN [Worker-0] - ScalaProject - Project piconot runs on platform default installation.
+2016-11-28 13:23:01,393  WARN [main] - ScalaProject - Project Example Line Animations has platform default sourceLevel.
+2016-11-28 13:23:01,394  WARN [main] - ScalaProject - Project Example Line Animations runs on platform default installation.
+2016-11-28 13:24:16,478 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:24:16,480 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:24:16,483 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:25:01,918 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:25:01,926 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:25:25,451 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:25:25,459 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:25:25,459 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:26:23,643  WARN [Worker-6] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-28 13:26:23,644  WARN [Worker-6] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-28 13:26:23,721  WARN [Worker-6] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-28 13:26:23,721  WARN [Worker-6] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-28 13:26:44,167  WARN [Worker-7] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-28 13:26:44,177  WARN [Worker-7] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-28 13:26:46,748  WARN [Worker-8] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-28 13:26:46,748  WARN [Worker-8] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-28 13:28:33,186  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-28 13:28:33,195  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-28 13:30:16,263  WARN [Worker-5] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-28 13:30:16,271  WARN [Worker-5] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-28 13:30:55,830  WARN [Worker-7] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-28 13:30:55,832  WARN [Worker-7] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-28 13:35:01,396 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:35:01,937 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:35:01,937 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:35:01,937 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:35:13,959  WARN [Worker-8] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-28 13:35:13,967  WARN [Worker-8] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-28 13:35:18,660  WARN [Worker-8] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-28 13:35:18,660  WARN [Worker-8] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-28 13:39:31,410 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:39:31,424 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:39:31,425 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:39:34,597 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:39:34,597 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:39:34,598 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:39:38,799 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:39:38,799 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:39:38,800 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:39:46,472 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:39:46,473 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:39:46,473 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:39:57,913 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:39:57,914 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:39:57,914 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:40:11,071 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:40:11,071 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:40:11,071 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 13:40:23,929  WARN [Worker-5] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-28 13:40:23,938  WARN [Worker-5] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-28 13:40:27,618  WARN [Worker-5] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-28 13:40:27,618  WARN [Worker-5] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-28 14:09:38,926 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 14:09:38,935 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 14:09:38,935 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 14:28:37,878 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 14:28:37,887 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-28 14:28:37,887 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 13:18:10,960  WARN [main] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 13:18:10,968  WARN [main] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 13:18:10,976  WARN [main] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 13:18:10,976  WARN [main] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 13:18:10,983  WARN [main] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 13:18:10,984  WARN [main] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 13:18:16,987  WARN [main] - ScalaProject - Project Example Line Animations has platform default sourceLevel.
+2016-11-30 13:18:16,989  WARN [main] - ScalaProject - Project Example Line Animations runs on platform default installation.
+2016-11-30 13:18:21,406  WARN [Worker-3] - ScalaProject - Project piconot has platform default sourceLevel.
+2016-11-30 13:18:21,407  WARN [Worker-3] - ScalaProject - Project piconot runs on platform default installation.
+2016-11-30 13:18:21,408  WARN [Worker-3] - ScalaProject - Project piconot has platform default sourceLevel.
+2016-11-30 13:18:21,408  WARN [Worker-3] - ScalaProject - Project piconot runs on platform default installation.
+2016-11-30 13:20:46,393  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-11-30 13:41:07,189  WARN [main] - ScalaProject - Project piconot has platform default sourceLevel.
+2016-11-30 13:41:07,190  WARN [main] - ScalaProject - Project piconot runs on platform default installation.
+2016-11-30 13:45:14,597  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-11-30 13:46:09,744  WARN [Worker-2] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 13:46:09,745  WARN [Worker-2] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 13:46:09,847  WARN [Worker-2] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 13:46:09,847  WARN [Worker-2] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 13:46:16,594  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 13:46:16,595  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 13:46:21,464  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 13:46:21,464  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 13:46:34,592  WARN [Worker-7] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 13:46:34,592  WARN [Worker-7] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 13:50:18,228  WARN [Worker-7] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 13:50:18,237  WARN [Worker-7] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 13:56:36,452  WARN [Worker-9] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 13:56:36,479  WARN [Worker-9] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 13:56:43,665  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 13:56:43,666  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 13:56:45,516 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 13:56:45,516 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 13:56:45,516 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 13:57:54,584 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 13:57:54,592 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 13:57:54,592 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 13:58:58,459 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 13:58:58,468 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 13:58:58,468 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 13:59:32,932  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 13:59:32,940  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 13:59:59,855  WARN [Worker-6] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 13:59:59,857  WARN [Worker-6] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:00:08,131  WARN [Worker-6] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:00:08,132  WARN [Worker-6] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:01:55,652  WARN [Worker-9] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:01:55,656  WARN [Worker-9] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:02:13,418  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:02:13,433  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:02:15,965  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:02:15,965  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:03:56,470  WARN [Worker-7] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:03:56,471  WARN [Worker-7] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:04:40,006  WARN [Worker-6] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:04:40,014  WARN [Worker-6] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:04:42,209  WARN [Worker-6] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:04:42,210  WARN [Worker-6] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:15:58,548 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 14:15:58,556 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 14:15:58,556 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 14:16:20,274 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 14:16:20,274 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 14:16:20,274 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 14:17:23,708  WARN [Worker-9] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:17:23,716  WARN [Worker-9] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:17:25,861  WARN [Worker-9] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:17:25,862  WARN [Worker-9] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:18:45,606 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 14:18:45,608 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 14:18:45,608 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 14:20:09,145  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:20:09,145  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:20:28,216 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 14:20:28,216 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 14:20:28,216 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 14:20:37,045  WARN [Worker-2] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:20:37,054  WARN [Worker-2] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:20:39,011  WARN [Worker-2] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:20:39,011  WARN [Worker-2] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:20:50,332  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:20:50,347  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:20:52,703  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:20:52,703  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:25:07,540  WARN [Worker-2] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:25:07,541  WARN [Worker-2] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:25:07,572  WARN [Worker-2] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:25:07,573  WARN [Worker-2] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:25:10,221  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:25:10,221  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:25:10,259  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:25:10,259  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:25:11,938 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 14:25:11,938 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 14:25:11,938 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-11-30 14:25:18,631 ERROR [Worker-2] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2016-11-30 14:25:18,632 ERROR [Worker-2] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2016-11-30 14:25:18,632 ERROR [Worker-2] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2016-11-30 14:26:08,618  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:26:08,619  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:26:08,661  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:26:08,661  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:26:41,068  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:26:41,068  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:26:45,023  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:26:45,023  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:26:46,303  WARN [Worker-2] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:26:46,305  WARN [Worker-2] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:26:46,342  WARN [Worker-2] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:26:46,342  WARN [Worker-2] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:27:22,856  WARN [Worker-7] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:27:22,857  WARN [Worker-7] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:27:25,600  WARN [Worker-7] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:27:25,600  WARN [Worker-7] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:27:38,877  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:27:38,878  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:27:38,906  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:27:38,906  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:29:02,455  WARN [Worker-9] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:29:02,456  WARN [Worker-9] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:29:02,487  WARN [Worker-9] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:29:02,487  WARN [Worker-9] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:29:09,973  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:29:09,973  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:29:09,989  WARN [Worker-3] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:29:09,990  WARN [Worker-3] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:29:30,668  WARN [Worker-0] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:29:30,668  WARN [Worker-0] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:29:37,345  WARN [Worker-9] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:29:37,345  WARN [Worker-9] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 14:29:37,370  WARN [Worker-9] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 14:29:37,370  WARN [Worker-9] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 15:05:35,672  WARN [Worker-12] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 15:05:35,673  WARN [Worker-12] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-11-30 15:05:48,057  WARN [Worker-12] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-11-30 15:05:48,058  WARN [Worker-12] - ScalaProject - Project LineAnimate runs on platform default installation.

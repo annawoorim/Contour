@@ -1,0 +1,8 @@
+Start(0, 300)
+
+
+// Diamond 
+RightUp(70, 100)
+RightDown(70, 100)
+LeftDown(70, 100)
+LeftUp(70,100)

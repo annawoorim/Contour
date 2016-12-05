@@ -1,6 +1,0 @@
-package lineAnimate
-import scala.util._
-
-class Parser extends RegexParsers {
-  
-}

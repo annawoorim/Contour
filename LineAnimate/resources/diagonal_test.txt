@@ -1,0 +1,9 @@
+// Diagonal test
+Start (100,100)
+
+UpRight(50,50)
+RightUp(100,50)
+RightDown(100,50)
+DownRight(50,50)
+DownLeft(50,10)
+LeftUp(20,60)

@@ -66,10 +66,54 @@ class RulesIR extends PApplet {
    */
   def modifyPosition(pos: Position) {
     this match {
-      case Right(x) => pos.incX
-      case Left(x) => pos.decX
-      case Up(x) => pos.decY
-      case Down(x) => pos.incY
+      case Right(x) => pos.incX(1)
+      case Left(x) => pos.decX(1)
+      case Up(y) => pos.decY(1)
+      case Down(y) => pos.incY(1)
+      case UpRight(y,x) => 
+        { 
+          if (y > x) {
+            pos.decY(1)
+            pos.incX(x/y)
+          }
+          else {
+            pos.decY(y/x)
+            pos.incX(1)
+          }
+        }
+      case UpLeft(y,x) => 
+        { 
+          if (y > x) {
+            pos.decY(1)
+            pos.decX(x/y)
+          }
+          else {
+            pos.decY(y/x)
+            pos.decX(1)
+          }
+        }
+      case DownRight(y,x) => 
+        { 
+          if (y > x) {
+            pos.incY(1)
+            pos.incX(x/y)
+          }
+          else {
+            pos.incY(y/x)
+            pos.incX(1)
+          }
+        }
+      case DownLeft(y,x) => 
+        { 
+          if (y > x) {
+            pos.incY(1)
+            pos.decX(x/y)
+          }
+          else {
+            pos.incY(y/x)
+            pos.decX(1)
+          }
+        }
     }
   }
   
@@ -80,8 +124,12 @@ class RulesIR extends PApplet {
     this match {
       case Right(x) => x
       case Left(x) => x
-      case Up(x) => x
-      case Down(x) => x
+      case Up(y) => y
+      case Down(y) => y
+      case UpRight(y, x) => { if (y>x) y else x}
+      case UpLeft(y, x) => { if (y>x) y else x}
+      case DownRight(y, x) => { if (y>x) y else x}
+      case DownLeft(y, x) => { if (y>x) y else x}
     }
   }
 }
@@ -93,10 +141,10 @@ case class Position (x: Float, y: Float) extends RulesIR {
   var currX : Float = x
   var currY : Float = y
   
-  def incX {  currX+=1  }
-  def incY {  currY+=1  }
-  def decX {  currX-=1  }
-  def decY {  currY-=1  }
+  def incX (num: Float) { currX+=num}
+  def incY (num: Float) {  currY+=num  }
+  def decX (num: Float) {  currX-=num  }
+  def decY (num: Float) {  currY-=num  }
 }
 
 /*
@@ -119,8 +167,14 @@ case class Start() extends RulesIR {
 
 /*
  * Valid rules - line can move right, left, up, or down
+ * 
+ * Added diagonal rules!
  */
 case class Right (moveRight: Float) extends RulesIR 
 case class Left (moveLeft: Float) extends RulesIR
 case class Up (moveUp: Float) extends RulesIR 
 case class Down (moveDown: Float) extends RulesIR 
+case class UpRight(moveUp: Float, moveRight: Float) extends RulesIR
+case class UpLeft(moveUp: Float, moveLeft: Float) extends RulesIR
+case class DownRight(moveDown: Float, moveRight: Float) extends RulesIR
+case class DownLeft(moveDown: Float, moveLeft: Float) extends RulesIR
