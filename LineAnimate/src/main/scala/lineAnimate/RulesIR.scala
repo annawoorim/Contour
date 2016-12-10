@@ -1,6 +1,9 @@
 package lineAnimate
 import processing.core._
 
+/*
+ * Intermediate representation of Line Animate DSL
+ */
 class RulesIR extends PApplet {
   
   /*
@@ -55,9 +58,21 @@ class RulesIR extends PApplet {
        startNext.setTrue
   }
   
+  /*
+   * Conversion to allow access to Position in main class
+   */
   def convertToPosition: Position = {
     this match {
       case Position(x,y) => Position(x,y)
+    }
+  }
+  
+  /*
+   * Conversion to allow access to Size in main class
+   */
+  def convertToSize: Size = {
+    this match {
+      case Size(x,y) => Size(x,y)
     }
   }
   
@@ -132,6 +147,39 @@ class RulesIR extends PApplet {
       case DownLeft(y, x) => { if (y>x) y else x}
     }
   }
+  
+  /*
+   * Determines rule type which defines line position
+   */
+  def isPosition : Boolean = {
+    this match {
+      case Position(_,_) => true
+      case _ => false
+    }
+  }
+  
+  /*
+ 	 * Determines rule types which define line or background properties
+ 	 */
+  def isPropertyRule : Boolean = {
+    this match {
+      case Color(_,_,_) => true
+      case Width(_) => true
+      case Speed(_) => true
+      case Background(_,_,_) => true
+      case _ => false
+    }
+  }
+  
+/*
+ * Determines rule type which defines background size
+ */
+  def isSize : Boolean = {
+    this match {
+      case Size(_,_) => true
+      case _ => false
+    }
+  }
 }
 
 /*
@@ -166,9 +214,7 @@ case class Start() extends RulesIR {
 }
 
 /*
- * Valid rules - line can move right, left, up, or down
- * 
- * Added diagonal rules!
+ * Valid rules - define line to move right, left, up, down, or diagonally
  */
 case class Right (moveRight: Float) extends RulesIR 
 case class Left (moveLeft: Float) extends RulesIR
@@ -178,3 +224,17 @@ case class UpRight(moveUp: Float, moveRight: Float) extends RulesIR
 case class UpLeft(moveUp: Float, moveLeft: Float) extends RulesIR
 case class DownRight(moveDown: Float, moveRight: Float) extends RulesIR
 case class DownLeft(moveDown: Float, moveLeft: Float) extends RulesIR
+
+/*
+ * Valid property rules - define line color, line width, line speed, 
+ * and background color
+ */
+case class Color(r: Int, gr: Int, b: Int) extends RulesIR 
+case class Width(w: Int) extends RulesIR
+case class Speed(s: Int) extends RulesIR
+case class Background(r: Int, gr: Int, b: Int) extends RulesIR
+
+/*
+ * Valid size rule - define size of animation frame
+ */
+case class Size(x: Int, y: Int) extends RulesIR

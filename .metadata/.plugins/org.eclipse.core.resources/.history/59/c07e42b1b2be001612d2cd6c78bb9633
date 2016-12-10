@@ -1,0 +1,76 @@
+package lineAnimate
+import processing.core._
+import java.io.FileNotFoundException
+
+object LineAnimation extends RulesIR {
+  var p: String = _
+  def main(args: Array[String]) {
+    p = args(0)
+    PApplet.main(Array[String]("lineAnimate.LineAnimation"))
+  }   
+}
+
+class LineAnimation extends PApplet {   
+  // Parse rules file
+  val programFilename = LineAnimation.p
+
+  val program = Parser (
+    try {
+      io.Source.fromFile(programFilename).mkString
+    }
+    catch { // Error handling: non-existent file
+      case e: FileNotFoundException ⇒ { println(e.getMessage()); sys.exit(1) }
+    }
+  )
+  
+  var pos : Position = _
+  var properties : List[RulesIR] = _
+  var rules : List[RulesIR] = _
+  var posMoved : Array[Moved] = _
+  var startRule : Array[Start] =_
+  
+  // Results of parsing
+  program match {      
+  // Check syntax errors
+  case e: Parser.NoSuccess  ⇒ println(e)
+ 
+  // Successful parse!
+  case Parser.Success(t, _) ⇒ {
+    pos = program.get.filter((rule: RulesIR) => rule.isPosition).head.convertToPosition
+    properties = program.get.filter((rule: RulesIR) => rule.isPropertyRule)
+    rules = program.get.filterNot((rule: RulesIR) => rule.isPropertyRule || rule.isPosition || rule.isSize)
+    posMoved = LineAnimation.posRules(rules)    
+    startRule = LineAnimation.startRules(rules)
+  }
+  }
+  
+  override def settings () {
+      size(500, 500)
+  }
+  
+  override def setup() {
+    stroke(255)
+    background(0)
+    frameRate(300)
+    
+  /*
+   * Set properties of the line and background
+   */
+    for (p <- properties) {
+      p match {
+        case Color(r,g,b) => stroke(r,g,b)
+        case Width(w) => strokeWeight(w)
+        case Speed(s) => frameRate(s)
+        case Background(r,g,b) => background(r,g,b)
+      }
+    }
+  }
+  
+  override def draw() {
+    point(pos.currX, pos.currY)
+    LineAnimation.runAnimation(rules, posMoved, startRule, pos)
+  } 
+  
+  // A string that describes how to use the program 
+  def usage = "usage: lineAnimate.LineAnimation <rules-file>"
+}

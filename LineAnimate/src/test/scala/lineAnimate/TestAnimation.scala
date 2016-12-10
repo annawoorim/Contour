@@ -1,6 +1,10 @@
 package lineAnimate
 import processing.core._
 
+/*
+ * Creating a test animation using the intermediate representation 
+ * of animation rules
+ */
 object TestAnimation extends RulesIR { 
   def main(args: Array[String]) {
     PApplet.main(Array[String]("lineAnimate.TestAnimation"))
@@ -8,50 +12,11 @@ object TestAnimation extends RulesIR {
 }
 
 class TestAnimation extends PApplet {
-  //var pos: Position = Position(200,200)
-  var pos: Position = Position(0,300)
+  // Start position of the line
+  var pos: Position = Position(200,200)
+  
   val rules: List[RulesIR] = List(
-      // cityscape
-      Right(50),
-      Up(150),
-      Right(50),
-      Down(150),
-      
-      Right(20),
-      Up(200),
-      UpRight(40,20),
-      DownRight(40,20),
-      Down(200),
-      
-      Right(20),
-      Up(180),
-      Right(10),
-      Up(10),
-      Right(60),
-      Down(10),
-      Right(10),
-      Down(180),
-      
-      Right(20),
-      Up(120),
-      Right(10),
-      Up(70),
-      Right(5),
-      UpRight(80,5),
-      DownRight(80,5),
-      Right(5),
-      Down(70),
-      Right(10),
-      Down(120),
-      
-      Right(20),
-      Up(200),
-      Right(110),
-      Down(200),
-      Right(50)
-      
-      /* 
-       // spiral
+       // Rules for creating a spiral animation
         Right(100),
         Down(100),
         Left(100),
@@ -63,8 +28,10 @@ class TestAnimation extends PApplet {
         Right(40),
         Down(20),
         Left(20)
-      */
   )
+  
+  // Set line color to purple
+  val properties: List[RulesIR] = List(Color(128,0,128))
   
   var posMoved = TestAnimation.posRules(rules)
   var startRule = TestAnimation.startRules(rules)
@@ -72,13 +39,25 @@ class TestAnimation extends PApplet {
   override def settings () {
     size(500, 500)
   }
-
+    
   override def setup() {
     stroke(255)
     background(0)
     frameRate(300)
-  }
     
+   /*
+    * Set properties of the line and background
+   */
+    for (p <- properties) {
+      p match {
+        case Color(r,g,b) => stroke(r,g,b)
+        case Width(w) => strokeWeight(w)
+        case Speed(s) => frameRate(s)
+        case Background(r,g,b) => background(r,g,b)
+      }
+    }
+  }
+
   override def draw { 
     point(pos.currX, pos.currY)
     TestAnimation.runAnimation(rules, posMoved, startRule, pos)

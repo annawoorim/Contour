@@ -1,0 +1,187 @@
+package lineAnimate
+import scala.util.parsing.combinator._
+
+/*
+ * Parser used to parse Line Animate DSL for creating 2D line animations.
+ */
+object Parser extends RegexParsers {
+  
+  /*
+   *  Parse a list of rules
+   */
+  def apply(s: String): ParseResult[List[RulesIR]] = parseAll(program, s)  
+  def program: Parser[List[RulesIR]] = rule*
+  
+  /*
+   *  Rules can define line or background properties, the start position 
+   *  of the line animation, the units for a line to move
+   */
+  def rule : Parser[RulesIR] = (
+      lineColor | lineWidth | lineSpeed | backgroundColor
+      | "Size" ~ "(" ~ int ~ "," ~ int ~ ")" ^^ 
+        { case "Size" ~ "(" ~ x ~ "," ~ y ~ ")" => Size(x, y)}
+      | "Start" ~ "(" ~ num ~ "," ~ num ~ ")" ^^ 
+        { case "Start" ~ "(" ~ x ~ "," ~ y ~ ")" => Position(x, y)}
+      | "Right" ~ "(" ~ num ~ ")" ^^ { case "Right" ~ "(" ~ num ~ ")" => Right(num) }
+      | "Left" ~ "(" ~ num ~ ")" ^^ { case "Left" ~ "(" ~ num ~ ")" => Left(num) }
+      | "Up" ~ "(" ~ num ~ ")" ^^ { case "Up" ~ "(" ~ num ~ ")" => Up(num) }
+      | "Down" ~ "(" ~ num ~ ")" ^^ { case "Down" ~ "(" ~ num ~ ")" => Down(num) }
+      | "UpRight" ~ "(" ~ num ~ "," ~ num ~ ")" ^^ { case "UpRight" ~ "(" ~ y ~ "," ~ x ~ ")"  => UpRight(y, x) }
+      | "RightUp" ~ "(" ~ num ~ "," ~ num ~ ")" ^^ { case "RightUp" ~ "(" ~ x ~ "," ~ y ~ ")"  => UpRight(y, x) }
+      | "UpLeft" ~ "(" ~ num ~ "," ~ num ~ ")" ^^ { case "UpLeft" ~ "(" ~ y ~ "," ~ x ~ ")"  => UpLeft(y, x) }
+      | "LeftUp" ~ "(" ~ num ~ "," ~ num ~ ")" ^^ { case "LeftUp" ~ "(" ~ x ~ "," ~ y ~ ")"  => UpLeft(y, x) }
+      | "DownRight" ~ "(" ~ num ~ "," ~ num ~ ")" ^^ { case "DownRight" ~ "(" ~ y ~ "," ~ x ~ ")"  => DownRight(y, x) }
+      | "RightDown" ~ "(" ~ num ~ "," ~ num ~ ")" ^^ { case "RightDown" ~ "(" ~ x ~ "," ~ y ~ ")"  => DownRight(y, x) }
+      | "DownLeft" ~ "(" ~ num ~ "," ~ num ~ ")" ^^ { case "DownLeft" ~ "(" ~ y ~ "," ~ x ~ ")"  => DownLeft(y, x) }
+      | "LeftDown" ~ "(" ~ num ~ "," ~ num ~ ")" ^^ { case "LeftDown" ~ "(" ~ x ~ "," ~ y ~ ")"  => DownLeft(y, x) }
+      | failure("invalid rule")
+  )
+  
+  /*
+   * Define line color
+   */
+  def lineColor : Parser[RulesIR] = (
+      ("Color" ~ "(" ~ "red" ~ ")" ^^^ Color(255,0,0))
+      | ("Color" ~ "(" ~ "Red" ~ ")" ^^^ Color(255,0,0))
+      | ("Color" ~ "(" ~ "RED" ~ ")" ^^^ Color(255,0,0))
+      | ("Color" ~ "(" ~ "orange" ~ ")" ^^^ Color(255,165,0))
+      | ("Color" ~ "(" ~ "Orange" ~ ")" ^^^ Color(255,165,0))
+      | ("Color" ~ "(" ~ "ORANGE" ~ ")" ^^^ Color(255,165,0))
+      | ("Color" ~ "(" ~ "yellow" ~ ")" ^^^ Color(255,255,0))
+      | ("Color" ~ "(" ~ "Yellow" ~ ")" ^^^ Color(255,255,0))
+      | ("Color" ~ "(" ~ "YELLOW" ~ ")" ^^^ Color(255,255,0))
+      | ("Color" ~ "(" ~ "green" ~ ")" ^^^ Color(0,255,0))
+      | ("Color" ~ "(" ~ "Green" ~ ")" ^^^ Color(0,255,0))
+      | ("Color" ~ "(" ~ "GREEN" ~ ")" ^^^ Color(0,255,0))
+      | ("Color" ~ "(" ~ "blue" ~ ")" ^^^ Color(0,0,255))
+      | ("Color" ~ "(" ~ "Blue" ~ ")" ^^^ Color(0,0,255))
+      | ("Color" ~ "(" ~ "BLUE" ~ ")" ^^^ Color(0,0,255))
+      | ("Color" ~ "(" ~ "purple" ~ ")" ^^^ Color(128,0,128))
+      | ("Color" ~ "(" ~ "Purple" ~ ")" ^^^ Color(128,0,128))
+      | ("Color" ~ "(" ~ "PURPLE" ~ ")" ^^^ Color(128,0,128))
+      | ("Color" ~ "(" ~ "black" ~ ")" ^^^ Color(0,0,0))
+      | ("Color" ~ "(" ~ "Black" ~ ")" ^^^ Color(0,0,0))
+      | ("Color" ~ "(" ~ "BLACK" ~ ")" ^^^ Color(0,0,0))
+      | ("Color" ~ "(" ~ "white" ~ ")" ^^^ Color(255,255,255))
+      | ("Color" ~ "(" ~ "White" ~ ")" ^^^ Color(255,255,255))
+      | ("Color" ~ "(" ~ "WHITE" ~ ")" ^^^ Color(255,255,255))
+      | ("Color" ~ "(" ~ "grey" ~ ")" ^^^ Color(128,128,128))
+      | ("Color" ~ "(" ~ "Grey" ~ ")" ^^^ Color(128,128,128))
+      | ("Color" ~ "(" ~ "GREY" ~ ")" ^^^ Color(128,128,128))
+      | ("Color" ~ "(" ~ "gray" ~ ")" ^^^ Color(128,128,128))
+      | ("Color" ~ "(" ~ "Gray" ~ ")" ^^^ Color(128,128,128))
+      | ("Color" ~ "(" ~ "GRAY" ~ ")" ^^^ Color(128,128,128))
+      | ("Color" ~ "(" ~ int ~ ")" ^^
+          { case "Color" ~ "(" ~ n ~ ")" => Color(n, n, n) })
+      | ("Color" ~ "(" ~ int ~ "," ~ int ~ "," ~ int ~ ")" ^^ 
+          { case "Color" ~ "(" ~ r ~ "," ~ g ~ "," ~ b ~ ")" => Color(r,g,b) })
+      | failure("invalid line color") 
+  )
+  
+  /*
+   * Define line width
+   */
+  def lineWidth : Parser[RulesIR] = (
+      ("Width" ~ "(" ~ "small" ~ ")" ^^^ Width(1))
+      | ("Width" ~ "(" ~ "Small" ~ ")" ^^^ Width(1))
+      | ("Width" ~ "(" ~ "SMALL" ~ ")" ^^^ Width(1))
+      | ("Width" ~ "(" ~ "medium" ~ ")" ^^^ Width(5))
+      | ("Width" ~ "(" ~ "Medium" ~ ")" ^^^ Width(5))
+      | ("Width" ~ "(" ~ "MEDIUM" ~ ")" ^^^ Width(5))
+      | ("Width" ~ "(" ~ "large" ~ ")" ^^^ Width(10))
+      | ("Width" ~ "(" ~ "Large" ~ ")" ^^^ Width(10))
+      | ("Width" ~ "(" ~ "LARGE" ~ ")" ^^^ Width(10))
+      | ("Width" ~ "(" ~ int ~ ")" ^^ 
+        { case "Width" ~ "(" ~ w ~ ")" => Width(w) })
+      | failure ("invalid width")
+  )
+  
+  /*
+   * Define Line Speed
+   */
+  def lineSpeed : Parser[RulesIR] = (
+      ("Speed" ~ "(" ~ "slow" ~ ")" ^^^ Speed(50))
+      | ("Speed" ~ "(" ~ "Slow" ~ ")" ^^^ Speed(50))
+      | ("Speed" ~ "(" ~ "SLOW" ~ ")" ^^^ Speed(50))
+      | ("Speed" ~ "(" ~ "medium" ~ ")" ^^^ Speed(100))
+      | ("Speed" ~ "(" ~ "Medium" ~ ")" ^^^ Speed(100))
+      | ("Speed" ~ "(" ~ "MEDIUM" ~ ")" ^^^ Speed(100))
+      | ("Speed" ~ "(" ~ "fast" ~ ")" ^^^ Speed(300))
+      | ("Speed" ~ "(" ~ "Fast" ~ ")" ^^^ Speed(300))
+      | ("Speed" ~ "(" ~ "FAST" ~ ")" ^^^ Speed(300))
+      | ("Speed" ~ "(" ~ int ~ ")" ^^ 
+        { case "Speed" ~ "(" ~ s ~ ")" => Speed(s) })
+      | failure ("invalid speed")
+  )
+  
+  /*
+   * Define background color
+   */
+  def backgroundColor : Parser[RulesIR] = (
+      ("Background" ~ "(" ~ "red" ~ ")" ^^^ Background(255,0,0))
+      | ("Background" ~ "(" ~ "Red" ~ ")" ^^^ Background(255,0,0))
+      | ("Background" ~ "(" ~ "RED" ~ ")" ^^^ Background(255,0,0))
+      | ("Background" ~ "(" ~ "orange" ~ ")" ^^^ Background(255,165,0))
+      | ("Background" ~ "(" ~ "Orange" ~ ")" ^^^ Background(255,165,0))
+      | ("Background" ~ "(" ~ "ORANGE" ~ ")" ^^^ Background(255,165,0))
+      | ("Background" ~ "(" ~ "yellow" ~ ")" ^^^ Background(255,255,0))
+      | ("Background" ~ "(" ~ "Yellow" ~ ")" ^^^ Background(255,255,0))
+      | ("Background" ~ "(" ~ "YELLOW" ~ ")" ^^^ Background(255,255,0))
+      | ("Background" ~ "(" ~ "green" ~ ")" ^^^ Background(0,255,0))
+      | ("Background" ~ "(" ~ "Green" ~ ")" ^^^ Background(0,255,0))
+      | ("Background" ~ "(" ~ "GREEN" ~ ")" ^^^ Background(0,255,0))
+      | ("Background" ~ "(" ~ "blue" ~ ")" ^^^ Background(0,0,255))
+      | ("Background" ~ "(" ~ "Blue" ~ ")" ^^^ Background(0,0,255))
+      | ("Background" ~ "(" ~ "BLUE" ~ ")" ^^^ Background(0,0,255))
+      | ("Background" ~ "(" ~ "purple" ~ ")" ^^^ Background(128,0,128))
+      | ("Background" ~ "(" ~ "Purple" ~ ")" ^^^ Background(128,0,128))
+      | ("Background" ~ "(" ~ "PURPLE" ~ ")" ^^^ Background(128,0,128))
+      | ("Background" ~ "(" ~ "black" ~ ")" ^^^ Background(0,0,0))
+      | ("Background" ~ "(" ~ "Black" ~ ")" ^^^ Background(0,0,0))
+      | ("Background" ~ "(" ~ "BLACK" ~ ")" ^^^ Background(0,0,0))
+      | ("Background" ~ "(" ~ "white" ~ ")" ^^^ Background(255,255,255))
+      | ("Background" ~ "(" ~ "White" ~ ")" ^^^ Background(255,255,255))
+      | ("Background" ~ "(" ~ "WHITE" ~ ")" ^^^ Background(255,255,255))
+      | ("Background" ~ "(" ~ "grey" ~ ")" ^^^ Background(128,128,128))
+      | ("Background" ~ "(" ~ "Grey" ~ ")" ^^^ Background(128,128,128))
+      | ("Background" ~ "(" ~ "GREY" ~ ")" ^^^ Background(128,128,128))
+      | ("Background" ~ "(" ~ "gray" ~ ")" ^^^ Background(128,128,128))
+      | ("Background" ~ "(" ~ "Gray" ~ ")" ^^^ Background(128,128,128))
+      | ("Background" ~ "(" ~ "GRAY" ~ ")" ^^^ Background(128,128,128))
+      | ("Background" ~ "(" ~ int ~ ")" ^^
+          { case "Background" ~ "(" ~ n ~ ")" => Background(n, n, n) })
+      | ("Background" ~ "(" ~ int ~ "," ~ int ~ "," ~ int ~ ")" ^^ 
+          { case "Background" ~ "(" ~ r ~ "," ~ g ~ "," ~ b ~ ")" => Background(r,g,b) })
+      | failure("invalid background color") 
+  )
+  
+  /*
+   * Positive integer value
+   * 
+   * Used to define line and background properties
+   */
+  def int : Parser[Int] = ("""^\d*""".r ^^ { s => (s.toInt)})
+  
+  /*
+   * Positive float value
+   * 
+   * Used to define current position or number of units for position to change
+   */
+  def num : Parser[Float] = ("""^\d*""".r ^^ { s => (s.toFloat)})
+  
+  /* 
+   * For parsing comments
+   */
+  override protected val whiteSpace = """(\s|//.*)+""".r
+  
+  /*
+   * Working on a feature that allows user to define and save 
+   * a set of rules
+   * 
+  def ruleList : Parser[List[RulesIR]] = (
+       "=" ~ "{" ~> repsep(rule, ",") <~ "}" ^^ { (ruleList: List[RulesIR]) => ruleList }
+  )
+  
+  def ruleName : Parser[String] = ("""^\s*""".r ^^ { s => (s.toString) } )
+	*/ 
+}

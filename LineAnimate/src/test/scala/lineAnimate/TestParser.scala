@@ -4,6 +4,9 @@ import org.scalacheck.Prop.forAll
 import org.scalatest.Matchers
 import org.scalatest.FunSuite
 
+/*
+ * Testing elements of the parser
+ */
 class TestParser extends FunSuite with Matchers {  
   test ("Check start") {
     Parser("Start(200, 200)").get should be (List(Position(200, 200)))
@@ -25,7 +28,26 @@ class TestParser extends FunSuite with Matchers {
     Parser("Down(500)").get should be (List(Down(500)))
   }
   
-  test ("Check rule list") {
-    Parser("{ Right(10) }").get should be (List(Right(10)))
+  test ("Check color") {
+    Parser("Color(red)").get should be (List(Color(255,0,0)))
+    Parser("Color(orange)").get should be (List(Color(255,165,0)))
+    Parser("Color(yellow)").get should be (List(Color(255,255,0)))
+    Parser("Color(green)").get should be (List(Color(0,255,0)))
+    Parser("Color(blue)").get should be (List(Color(0,0,255)))
+    Parser("Color(purple)").get should be (List(Color(128,0,128)))
+    Parser("Color(black)").get should be (List(Color(0,0,0)))
+    Parser("Color(white)").get should be (List(Color(255,255,255)))
+    Parser("Color(grey)").get should be (List(Color(128,128,128)))
+    Parser("Color(50,0,100)").get should be (List(Color(50,0,100)))
+    Parser("Color(50)").get should be (List(Color(50,50,50)))
   }
+  
+  /*
+   * Working on rule list feature
+   * 
+  test ("Check rule list") {
+    Parser("rule = { Right(10) }").get should be (List(Right(10)))
+  }
+  * 
+  */
 }

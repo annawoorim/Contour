@@ -16,7 +16,7 @@ class spiral extends PApplet {
   }
  
   override def setup() {
-    stroke(255)
+    stroke(128,0,128)
     strokeWeight(8);
     background(0)
     frameRate(300)

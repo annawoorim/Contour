@@ -1,0 +1,50 @@
+package lineAnimate
+import processing.core._
+
+object TestAnimation extends RulesIR { 
+  def main(args: Array[String]) {
+    PApplet.main(Array[String]("lineAnimate.TestAnimation"))
+  }  
+}
+
+class TestAnimation extends PApplet {
+  var pos: Position = Position(200,200)
+  
+  val rules: List[RulesIR] = List(
+       // spiral
+        Right(100),
+        Down(100),
+        Left(100),
+        Up(80),
+        Right(80),
+        Down(60),
+        Left(60),
+        Up(40),
+        Right(40),
+        Down(20),
+        Left(20)
+  )
+  
+  val properties: List[RulesIR] = List(Color(128,0,128))
+  
+  var posMoved = TestAnimation.posRules(rules)
+  var startRule = TestAnimation.startRules(rules)
+    
+  override def settings () {
+    size(500, 500)
+  }
+
+  TestAnimation.setup()
+    
+  override def setup() {
+    stroke(255)
+    background(0)
+    frameRate(300)
+    //TestAnimation.setProperties(properties)
+  }
+    
+  override def draw { 
+    point(pos.currX, pos.currY)
+    TestAnimation.runAnimation(rules, posMoved, startRule, pos)
+  }
+}

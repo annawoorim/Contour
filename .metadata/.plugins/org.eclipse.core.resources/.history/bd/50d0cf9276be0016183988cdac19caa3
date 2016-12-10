@@ -1,0 +1,107 @@
+import processing.core._; 
+
+object simpleSquare { 
+  def main(args: Array[String]) {
+    PApplet.main(Array[String]("simpleSquare"))
+  }
+}
+
+
+class simpleSquare extends PApplet {
+  
+  var x: Float = 200
+  var y: Float = 200
+ 
+  var rule1, rule2, rule3, rule4, rule5, rule6, rule7, rule8, rule9, 
+    rule10, rule11 : Int = 0
+  var start1, start2, start3, start4, start5, start6, start7, start8,
+    start9, start10, start11 : Boolean = false
+  
+  override def settings () {
+    size(500, 500)
+  }
+ 
+  override def setup() {
+    stroke(255)
+    strokeWeight(1)
+    background(0)
+    frameRate(3000)
+  }
+  
+  override def draw { 
+    point(x,y);
+    
+    start1 = true;
+    
+    if(rule1<100 && start1) {
+      x+=1
+      rule1+=1
+    }
+    if(rule1 == 100) 
+       start2 = true
+       
+    if(rule2<100 && start2) {
+      y+=1
+      rule2+=1 
+    }
+    if(rule2 == 100)
+        start3 = true
+        
+    if(rule3<100 && start3) {
+      x-=1
+      rule3+=1
+    }
+    if(rule3 == 100)
+        start4 = true
+        
+    if(rule4<80 && start4) {
+      y-=1
+      rule4+=1
+    }
+    if(rule4 == 80)
+        start5 = true
+        
+    if(rule5<80 && start5) {
+      x+=1
+      rule5+=1
+    }
+    if(rule5 == 80)
+        start6 = true
+        
+    if(rule6<60 && start6) {
+      y+=1
+      rule6+=1
+    }
+    if(rule6 == 60)
+        start7 = true
+        
+    if(rule7<60 && start7) {
+      x-=1
+      rule7+=1
+      if(rule7 == 60)
+        start8 = true
+    }
+    if(rule8<40 && start8) {
+      y-=1
+      rule8+=1
+      if(rule8 == 40)
+        start9 = true
+    }
+    if(rule9<40 && start9) {
+      x+=1
+      rule9+=1
+      if(rule9 == 40)
+        start10 = true
+    }
+    if(rule10<20 && start10) {
+      y+=1
+      rule10+=1
+      if(rule10 == 20)
+        start11 = true
+    }
+    if(rule11<20 && start11) {
+      x-=1
+      rule11+=1
+    }  
+  }
+}

@@ -2,6 +2,9 @@ package lineAnimate
 import processing.core._
 import java.io.FileNotFoundException
 
+/*
+ * Main class that runs text file of line animation rules
+ */
 object LineAnimation extends RulesIR {
   var p: String = _
   def main(args: Array[String]) {
@@ -23,10 +26,12 @@ class LineAnimation extends PApplet {
     }
   )
   
-  var pos : Position = _
-  var rules : List[RulesIR] = _
-  var posMoved : Array[Moved] = _
-  var startRule : Array[Start] =_
+  var pos : Position = Position(0,0)  // Position of the line
+  var size : Size = Size(500,500)  // Frame size
+  var properties : List[RulesIR] = List()  // Properties of line and background
+  var rules : List[RulesIR] = List()  // Direction rules for line
+  var posMoved : Array[Moved] = Array()  // Whether a direction rule was finished
+  var startRule : Array[Start] = Array()  // Whether the next direction rule should begin executing
   
   // Results of parsing
   program match {      
@@ -35,8 +40,14 @@ class LineAnimation extends PApplet {
  
   // Successful parse!
   case Parser.Success(t, _) ⇒ {
-    pos = program.get.head.convertToPosition
-    rules = program.get.tail
+    if (!(program.get.filter((rule: RulesIR) => rule.isPosition).isEmpty)) {
+        pos = program.get.filter((rule: RulesIR) => rule.isPosition).head.convertToPosition
+    }  
+    if (!(program.get.filter((rule: RulesIR) => rule.isSize).isEmpty)) {
+        size = program.get.filter((rule: RulesIR) => rule.isSize).head.convertToSize
+    }    
+    properties = program.get.filter((rule: RulesIR) => rule.isPropertyRule)
+    rules = program.get.filterNot((rule: RulesIR) => rule.isPropertyRule || rule.isPosition || rule.isSize)
     posMoved = LineAnimation.posRules(rules)    
     startRule = LineAnimation.startRules(rules)
   }
@@ -44,12 +55,30 @@ class LineAnimation extends PApplet {
   
   override def settings () {
       size(500, 500)
+      /*
+       * Set frame size
+       */
+      size match {
+        case Size(x,y) => size(x,y)
+      }
   }
-
+  
   override def setup() {
     stroke(255)
     background(0)
     frameRate(300)
+    
+  /*
+   * Set properties of the line and background
+   */
+    for (p <- properties) {
+      p match {
+        case Color(r,g,b) => stroke(r,g,b)
+        case Width(w) => strokeWeight(w)
+        case Speed(s) => frameRate(s)
+        case Background(r,g,b) => background(r,g,b)
+      }
+    }
   }
   
   override def draw() {

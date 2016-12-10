@@ -1,0 +1,225 @@
+package lineAnimate
+import processing.core._
+
+class RulesIR extends PApplet {
+  
+  /*
+   * Create set of rules defining line animations
+   */
+  def runAnimation (rules: List[RulesIR], posMoved: Array[Moved], startRule: Array[Start], pos: Position) {         
+    var i = 0
+    for (i <- 0 to (rules.size - 2)) {
+      createRule(rules(i), posMoved(i), startRule(i), startRule(i+1), pos)
+    }
+    if(posMoved(rules.size - 1).num < rules(rules.size - 1).positionToMove && startRule(rules.size - 1).rule) {
+      rules(rules.size - 1).modifyPosition(pos)
+      posMoved(rules.size - 1).inc
+    }
+  }
+  
+  /*
+   * Set properties of the line and background
+   */
+  def setProperties(properties: List[RulesIR]) = {
+    for (p <- properties) {
+      p match {
+        case Color(r,g,b) => 
+          //System.out.println("stroke(r,g,b)")
+        case Width(w) => strokeWeight(w)
+        case Speed(s) => frameRate(s)
+        case Background(r,g,b) => background(r,g,b)
+      }
+    }
+  }
+  
+  /*
+   * Create array of Moved variables
+   */
+  def posRules(rules: List[RulesIR]): Array[Moved] = {
+    var posMoved = new Array[Moved](rules.size)
+    var i = 0
+    for (i <- 0 to (rules.size - 1)) {
+      posMoved.update(i, Moved())
+    }    
+    posMoved
+  }
+  
+  /*
+   * Create array of Start variables
+   */
+  def startRules(rules: List[RulesIR]): Array[Start] = {
+    var startRule = new Array[Start](rules.size)
+    var i = 0
+    for (i <- 0 to (rules.size - 1)) {
+      startRule.update(i, Start())
+    }    
+    startRule(0).setTrue
+    
+    startRule
+  }
+  
+  /*
+   * Create conditional statements for each animation rule
+   */
+  def createRule (rule: RulesIR, posMoved: Moved, startCurr: Start, startNext: Start, pos: Position) {   
+    if(posMoved.num < rule.positionToMove && startCurr.rule) {
+      rule.modifyPosition(pos)
+      posMoved.inc
+    }
+    if(posMoved.num == rule.positionToMove) 
+       startNext.setTrue
+  }
+  
+  def convertToPosition: Position = {
+    this match {
+      case Position(x,y) => Position(x,y)
+    }
+  }
+  
+  /*
+   * Shift x or y position of end point of the line
+   */
+  def modifyPosition(pos: Position) {
+    this match {
+      case Right(x) => pos.incX(1)
+      case Left(x) => pos.decX(1)
+      case Up(y) => pos.decY(1)
+      case Down(y) => pos.incY(1)
+      case UpRight(y,x) => 
+        { 
+          if (y > x) {
+            pos.decY(1)
+            pos.incX(x/y)
+          }
+          else {
+            pos.decY(y/x)
+            pos.incX(1)
+          }
+        }
+      case UpLeft(y,x) => 
+        { 
+          if (y > x) {
+            pos.decY(1)
+            pos.decX(x/y)
+          }
+          else {
+            pos.decY(y/x)
+            pos.decX(1)
+          }
+        }
+      case DownRight(y,x) => 
+        { 
+          if (y > x) {
+            pos.incY(1)
+            pos.incX(x/y)
+          }
+          else {
+            pos.incY(y/x)
+            pos.incX(1)
+          }
+        }
+      case DownLeft(y,x) => 
+        { 
+          if (y > x) {
+            pos.incY(1)
+            pos.decX(x/y)
+          }
+          else {
+            pos.incY(y/x)
+            pos.decX(1)
+          }
+        }
+    }
+  }
+  
+  /*
+   * Number of pixels for line to move 
+   */
+  def positionToMove : Float = {
+    this match {
+      case Right(x) => x
+      case Left(x) => x
+      case Up(y) => y
+      case Down(y) => y
+      case UpRight(y, x) => { if (y>x) y else x}
+      case UpLeft(y, x) => { if (y>x) y else x}
+      case DownRight(y, x) => { if (y>x) y else x}
+      case DownLeft(y, x) => { if (y>x) y else x}
+    }
+  }
+  
+  /*
+   * Determines rule types which define line position
+   */
+  def isPosition : Boolean = {
+    this match {
+      case Position(_,_) => true
+      case _ => false
+    }
+  }
+  
+  /*
+ 	 * Determines rule types which define line or background properties
+ 	 */
+  def isPropertyRule : Boolean = {
+    this match {
+      case Color(_,_,_) => true
+      case Width(_) => true
+      case Speed(_) => true
+      case Background(_,_,_) => true
+      case _ => false
+    }
+  }
+}
+
+/*
+ * Current position of the line
+ */
+case class Position (x: Float, y: Float) extends RulesIR {
+  var currX : Float = x
+  var currY : Float = y
+  
+  def incX (num: Float) { currX+=num}
+  def incY (num: Float) {  currY+=num  }
+  def decX (num: Float) {  currX-=num  }
+  def decY (num: Float) {  currY-=num  }
+}
+
+/*
+ * Number of units the line has moved based on a rule
+ */
+case class Moved() extends RulesIR {
+  var num : Int = 0
+  
+  def inc {  num+=1  }
+}
+
+/*
+ * Determines whether rule should be executed
+ */
+case class Start() extends RulesIR {
+  var rule : Boolean = false
+  
+  def setTrue {  rule = true  } 
+}
+
+/*
+ * Valid rules - line can move right, left, up, down, or diagonally
+ */
+case class Right (moveRight: Float) extends RulesIR 
+case class Left (moveLeft: Float) extends RulesIR
+case class Up (moveUp: Float) extends RulesIR 
+case class Down (moveDown: Float) extends RulesIR 
+case class UpRight(moveUp: Float, moveRight: Float) extends RulesIR
+case class UpLeft(moveUp: Float, moveLeft: Float) extends RulesIR
+case class DownRight(moveDown: Float, moveRight: Float) extends RulesIR
+case class DownLeft(moveDown: Float, moveLeft: Float) extends RulesIR
+
+/*
+ * Valid property rules - can define line color, line width, line speed, and 
+ * background color
+ */
+case class Color(r: Int, gr: Int, b: Int) extends RulesIR 
+case class Width(w: Int) extends RulesIR
+case class Speed(s: Int) extends RulesIR
+case class Background(r: Int, gr: Int, b: Int) extends RulesIR
