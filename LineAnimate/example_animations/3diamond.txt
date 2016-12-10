@@ -1,0 +1,24 @@
+// 3diamond
+Size(300,300)
+Background(orange)
+
+Color(blue)
+Speed(medium)
+Width(medium)
+
+
+Start(125, 50)
+
+// Create diamond shape 
+RightDown(70, 100)
+LeftDown(70, 100)
+LeftUp(70,100)
+RightUp(70, 100)
+
+// Make it 3d!
+RightUp(50,10)
+RightDown(70,100)
+LeftDown(70,100)
+LeftDown(50,10)
+RightUp(70,100)
+RightUp(50,10)

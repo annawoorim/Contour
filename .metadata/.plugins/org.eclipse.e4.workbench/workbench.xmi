@@ -96,13 +96,19 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_6x85JLIjEea4FpYemAQl9A" elementId="org.eclipse.ui.editorss" selectedElement="_6x85JbIjEea4FpYemAQl9A">
-      <children xsi:type="basic:PartStack" xmi:id="_6x85JbIjEea4FpYemAQl9A" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_6ZQjELWwEeaTTsvif4CJ7w">
+      <children xsi:type="basic:PartStack" xmi:id="_6x85JbIjEea4FpYemAQl9A" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_zaueML7FEeaAev_EIdxMTA">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_6ZQjELWwEeaTTsvif4CJ7w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Parser.scala" iconURI="platform:/plugin/org.scala-ide.sdt.core/icons/full/obj16/scu_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;Parser.scala&quot; partName=&quot;Parser.scala&quot; title=&quot;Parser.scala&quot; tooltip=&quot;LineAnimate/src/main/scala/lineAnimate/Parser.scala&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/LineAnimate/src/main/scala/lineAnimate/Parser.scala&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;213&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;Parser.scala&quot; partName=&quot;Parser.scala&quot; title=&quot;Parser.scala&quot; tooltip=&quot;LineAnimate/src/main/scala/lineAnimate/Parser.scala&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/LineAnimate/src/main/scala/lineAnimate/Parser.scala&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;4807&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>scala.tools.eclipse.ScalaSourceFileEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_zaueML7FEeaAev_EIdxMTA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="LineAnimation.scala" iconURI="platform:/plugin/org.scala-ide.sdt.core/icons/full/obj16/scu_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;LineAnimation.scala&quot; partName=&quot;LineAnimation.scala&quot; title=&quot;LineAnimation.scala&quot; tooltip=&quot;LineAnimate/src/main/scala/lineAnimate/LineAnimation.scala&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/LineAnimate/src/main/scala/lineAnimate/LineAnimation.scala&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2152&quot; selectionTopPixel=&quot;850&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>scala.tools.eclipse.ScalaSourceFileEditor</tags>
           <tags>removeOnHide</tags>
@@ -126,7 +132,7 @@
       <toolbar xmi:id="_6x852LIjEea4FpYemAQl9A" elementId="org.eclipse.jdt.ui.PackageExplorer"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_6x853LIjEea4FpYemAQl9A" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.png" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xA;&lt;expanded>&#xA;&lt;category IMemento.internal.id=&quot;Warnings (1 item)&quot;/>&#xA;&lt;/expanded>&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;300&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;300&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_6x853bIjEea4FpYemAQl9A" elementId="org.eclipse.ui.views.ProblemView">
@@ -191,7 +197,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_6x85_bIjEea4FpYemAQl9A" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_XK2Y0L6pEeaH-Lfb2dZl6A" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_6x-J67IjEea4FpYemAQl9A"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_veeEAL7FEeaAev_EIdxMTA" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_6x-J67IjEea4FpYemAQl9A"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_6x86CrIjEea4FpYemAQl9A" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -212,7 +218,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_6x86NrIjEea4FpYemAQl9A" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_XK7RUb6pEeaH-Lfb2dZl6A" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_6x-Jm7IjEea4FpYemAQl9A"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_vejjkr7FEeaAev_EIdxMTA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_6x-Jm7IjEea4FpYemAQl9A"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_6x9fCbIjEea4FpYemAQl9A" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -610,7 +616,7 @@
       <tags>platform:cocoa</tags>
       <parameters xmi:id="_6x9f5bIjEea4FpYemAQl9A" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.jdt.ui.PackageExplorer"/>
     </bindings>
-    <bindings xmi:id="_WcfeAb6pEeaH-Lfb2dZl6A" keySequence="COMMAND+CTRL+F" command="_6x-Kk7IjEea4FpYemAQl9A"/>
+    <bindings xmi:id="_uzMSYL7FEeaAev_EIdxMTA" keySequence="COMMAND+CTRL+F" command="_6x-Kk7IjEea4FpYemAQl9A"/>
   </bindingTables>
   <bindingTables xmi:id="_6x9f57IjEea4FpYemAQl9A" elementId="org.eclipse.jdt.ui.javaEditorScope" bindingContext="_6x9gubIjEea4FpYemAQl9A">
     <bindings xmi:id="_6x9f6LIjEea4FpYemAQl9A" keySequence="COMMAND+SHIFT+C" command="_6x-I7LIjEea4FpYemAQl9A"/>
@@ -892,7 +898,7 @@
     <bindings xmi:id="_6x9giLIjEea4FpYemAQl9A" keySequence="CTRL+D" command="_6x-KVrIjEea4FpYemAQl9A"/>
   </bindingTables>
   <bindingTables xmi:id="_6x9gibIjEea4FpYemAQl9A" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_6x9g1rIjEea4FpYemAQl9A">
-    <bindings xmi:id="_WcgFEL6pEeaH-Lfb2dZl6A" keySequence="M1+W" command="_6x-KlbIjEea4FpYemAQl9A"/>
+    <bindings xmi:id="_uzM5cL7FEeaAev_EIdxMTA" keySequence="M1+W" command="_6x-KlbIjEea4FpYemAQl9A"/>
   </bindingTables>
   <bindingTables xmi:id="_6x9gi7IjEea4FpYemAQl9A" bindingContext="_6x9g2rIjEea4FpYemAQl9A"/>
   <bindingTables xmi:id="_6x9gjLIjEea4FpYemAQl9A" bindingContext="_6x9g27IjEea4FpYemAQl9A"/>

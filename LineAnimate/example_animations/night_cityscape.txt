@@ -1,5 +1,7 @@
 // Making a cityscape!
 
+Speed(fast)
+
 Start(0,300) 
 
 // First building

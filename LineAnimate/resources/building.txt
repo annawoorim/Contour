@@ -1,6 +1,0 @@
-Start(0, 450)
-Right(225)
-Up(430)
-Right(50)
-Down(430)
-Right(225)

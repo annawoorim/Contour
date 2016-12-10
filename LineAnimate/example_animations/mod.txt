@@ -1,0 +1,32 @@
+// MOD
+
+Size(300,200)
+Background(purple)
+
+Color(white)
+Speed(fast)
+Width(large)
+
+Start(75,150)
+
+// M
+Up(100)
+DownRight(50,20)
+UpRight(50,20)
+Down(100)
+
+
+// O
+Right(20)
+Up(100)
+Right(40)
+Down(100)
+Left(40)
+
+// D
+Right(60)
+Up(100)
+RightDown(40,25)
+Down(50)
+DownLeft(25,40)
+

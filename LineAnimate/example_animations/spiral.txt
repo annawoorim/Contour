@@ -1,4 +1,9 @@
+// glow in the dark spiral
+Color(green)
+Width(medium)
+
 Start(200,200)
+
 Right(100)
 Down(100)
 Left(100)

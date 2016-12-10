@@ -1,0 +1,22 @@
+// ziggy zags
+Size(500,150)
+Background(blue)
+
+Color(yellow)
+Speed(fast)
+Width(medium)
+
+Start(0,115)
+
+RightUp(50,80)
+RightDown(50,80)
+RightUp(50,80)
+RightDown(50,80)
+RightUp(50,80)
+RightDown(50,80)
+RightUp(50,80)
+RightDown(50,80)
+RightUp(50,80)
+RightDown(50,80)
+RightUp(50,80)
+RightDown(50,80)
