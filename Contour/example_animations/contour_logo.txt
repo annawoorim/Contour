@@ -1,0 +1,11 @@
+Size (50,50)
+
+Start(40,10)
+
+Left(30)
+Down(30)
+Right(30)
+Up(5)
+Left(25)
+Up(20)
+Right(25)

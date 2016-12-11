@@ -1,4 +1,4 @@
-# Line-Animation-DSL
+# Contour
 A DSL used for animated line drawings.
 
 In order to start a new line animation, create a new text file in the "resources" folder.
