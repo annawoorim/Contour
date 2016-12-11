@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="scala.application">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/LineAnimate/src/main/scala/lineAnimate/Test.scala"/>
+<listEntry value="/Contour"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
-<listEntry value="1"/>
+<listEntry value="4"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="lineAnimate.Test"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="LineAnimate"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="contour.Test"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Contour"/>
 </launchConfiguration>

@@ -4593,3 +4593,135 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: 2383
 2016-12-10 02:46:03,769  WARN [Worker-5] - ScalaProject - Project piconot runs on platform default installation.
 2016-12-10 02:46:03,823  WARN [Worker-5] - ScalaProject - Project piconot has platform default sourceLevel.
 2016-12-10 02:46:03,823  WARN [Worker-5] - ScalaProject - Project piconot runs on platform default installation.
+2016-12-10 22:09:19,432  WARN [Worker-1] - ScalaProject - Project piconot has platform default sourceLevel.
+2016-12-10 22:09:19,459  WARN [Worker-1] - ScalaProject - Project piconot runs on platform default installation.
+2016-12-10 22:09:19,539  WARN [Worker-1] - ScalaProject - Project piconot has platform default sourceLevel.
+2016-12-10 22:09:19,539  WARN [Worker-1] - ScalaProject - Project piconot runs on platform default installation.
+2016-12-10 22:09:19,540  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-12-10 22:09:19,540  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-12-10 22:09:19,540  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-12-10 22:09:19,540  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-12-10 22:09:21,897  WARN [main] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-12-10 22:09:21,898  WARN [main] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-12-10 22:12:07,197  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-12-10 22:12:07,404  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-12-10 22:15:24,783 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-12-10 22:15:24,784 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-12-10 22:15:24,784 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-12-11 02:44:35,010  WARN [ModalContext] - ScalaProject - Project Contour has platform default sourceLevel.
+2016-12-11 02:44:35,030  WARN [ModalContext] - ScalaProject - Project Contour runs on platform default installation.
+2016-12-11 02:44:35,032  WARN [ModalContext] - ScalaProject - Project Contour has platform default sourceLevel.
+2016-12-11 02:44:35,033  WARN [ModalContext] - ScalaProject - Project Contour runs on platform default installation.
+2016-12-11 02:44:35,215  WARN [ModalContext] - ScalaProject - Project Contour has platform default sourceLevel.
+2016-12-11 02:44:35,216  WARN [ModalContext] - ScalaProject - Project Contour runs on platform default installation.
+2016-12-11 02:44:39,207  WARN [Worker-37] - ScalaProject - Project Contour has platform default sourceLevel.
+2016-12-11 02:44:39,207  WARN [Worker-37] - ScalaProject - Project Contour runs on platform default installation.
+2016-12-11 02:44:39,284  WARN [Worker-37] - ScalaProject - Project Contour has platform default sourceLevel.
+2016-12-11 02:44:39,284  WARN [Worker-37] - ScalaProject - Project Contour runs on platform default installation.
+2016-12-11 02:44:58,461  WARN [Worker-37] - ScalaProject - Project Contour has platform default sourceLevel.
+2016-12-11 02:44:58,463  WARN [Worker-37] - ScalaProject - Project Contour runs on platform default installation.
+2016-12-11 02:45:44,231  WARN [main] - ScalaProject - Project Contour has platform default sourceLevel.
+2016-12-11 02:45:44,237  WARN [main] - ScalaProject - Project Contour runs on platform default installation.
+2016-12-11 02:45:46,966  WARN [Worker-26] - ScalaProject - Project Contour has platform default sourceLevel.
+2016-12-11 02:45:46,966  WARN [Worker-26] - ScalaProject - Project Contour runs on platform default installation.
+2016-12-11 02:45:55,525  WARN [Worker-26] - ScalaProject - Project Contour has platform default sourceLevel.
+2016-12-11 02:45:55,527  WARN [Worker-26] - ScalaProject - Project Contour runs on platform default installation.
+2016-12-11 02:46:10,102  WARN [Worker-26] - ScalaProject - Project Contour has platform default sourceLevel.
+2016-12-11 02:46:10,110  WARN [Worker-26] - ScalaProject - Project Contour runs on platform default installation.
+2016-12-11 02:46:11,787  WARN [Worker-26] - ScalaProject - Project Contour has platform default sourceLevel.
+2016-12-11 02:46:11,787  WARN [Worker-26] - ScalaProject - Project Contour runs on platform default installation.
+2016-12-11 02:46:15,455  WARN [Worker-26] - ScalaProject - Project Contour has platform default sourceLevel.
+2016-12-11 02:46:15,463  WARN [Worker-26] - ScalaProject - Project Contour runs on platform default installation.
+2016-12-11 02:46:16,743  WARN [Worker-26] - ScalaProject - Project Contour has platform default sourceLevel.
+2016-12-11 02:46:16,743  WARN [Worker-26] - ScalaProject - Project Contour runs on platform default installation.
+2016-12-11 02:46:34,597  WARN [Worker-35] - ScalaProject - Project Contour has platform default sourceLevel.
+2016-12-11 02:46:34,608  WARN [Worker-35] - ScalaProject - Project Contour runs on platform default installation.
+2016-12-11 02:46:34,632  WARN [Java indexing] - ScalaProject - Project Contour has platform default sourceLevel.
+2016-12-11 02:46:34,632  WARN [Java indexing] - ScalaProject - Project Contour runs on platform default installation.
+2016-12-11 02:46:34,670  WARN [Worker-35] - ScalaProject - Project Contour has platform default sourceLevel.
+2016-12-11 02:46:34,670  WARN [Worker-35] - ScalaProject - Project Contour runs on platform default installation.
+2016-12-11 02:46:43,325  WARN [Worker-31] - ScalaProject - Project Contour has platform default sourceLevel.
+2016-12-11 02:46:43,326  WARN [Worker-31] - ScalaProject - Project Contour runs on platform default installation.
+2016-12-11 02:46:43,447  WARN [Worker-31] - ScalaProject - Project Contour has platform default sourceLevel.
+2016-12-11 02:46:43,449  WARN [Worker-31] - ScalaProject - Project Contour runs on platform default installation.
+2016-12-11 02:47:34,068 ERROR [Worker-38] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2016-12-11 02:47:34,069 ERROR [Worker-38] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2016-12-11 02:47:34,069 ERROR [Worker-38] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2016-12-11 02:48:27,670  WARN [Worker-35] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-12-11 02:48:27,671  WARN [Worker-35] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-12-11 02:48:27,775 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [LineAnimate does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:500)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:486)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:435)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:152)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:151)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:116)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:78)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.withSourceFile(ScalaSourceFile.scala:66)
+	at org.scalaide.core.internal.decorators.markoccurrences.ScalaOccurrencesFinder.findOccurrences(ScalaOccurrencesFinder.scala:50)
+	at org.scalaide.ui.internal.editor.MarkOccurrencesEditorExtension$class.getAnnotations(MarkOccurrencesEditorExtension.scala:104)
+	at org.scalaide.ui.internal.editor.MarkOccurrencesEditorExtension$class.org$scalaide$ui$internal$editor$MarkOccurrencesEditorExtension$$performOccurrencesUpdate(MarkOccurrencesEditorExtension.scala:95)
+	at org.scalaide.ui.internal.editor.MarkOccurrencesEditorExtension$$anonfun$1$$anonfun$apply$4$$anonfun$apply$2.apply$mcV$sp(MarkOccurrencesEditorExtension.scala:75)
+	at org.scalaide.ui.internal.editor.MarkOccurrencesEditorExtension$$anonfun$1$$anonfun$apply$4$$anonfun$apply$2.apply(MarkOccurrencesEditorExtension.scala:75)
+	at org.scalaide.ui.internal.editor.MarkOccurrencesEditorExtension$$anonfun$1$$anonfun$apply$4$$anonfun$apply$2.apply(MarkOccurrencesEditorExtension.scala:75)
+	at org.scalaide.util.Utils$.debugTimed(Utils.scala:28)
+	at org.scalaide.ui.internal.editor.MarkOccurrencesEditorExtension$$anonfun$1$$anonfun$apply$4.apply(MarkOccurrencesEditorExtension.scala:74)
+	at org.scalaide.ui.internal.editor.MarkOccurrencesEditorExtension$$anonfun$1$$anonfun$apply$4.apply(MarkOccurrencesEditorExtension.scala:72)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.editor.MarkOccurrencesEditorExtension$$anonfun$1.apply(MarkOccurrencesEditorExtension.scala:72)
+	at org.scalaide.ui.internal.editor.MarkOccurrencesEditorExtension$$anonfun$1.apply(MarkOccurrencesEditorExtension.scala:71)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$1.run(EclipseUtils.scala:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+2016-12-11 02:48:29,745  WARN [Worker-1] - ScalaProject - Project LineAnimate has platform default sourceLevel.
+2016-12-11 02:48:29,745  WARN [Worker-1] - ScalaProject - Project LineAnimate runs on platform default installation.
+2016-12-11 02:48:30,112 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [LineAnimate does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:500)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:486)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:435)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:152)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:151)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:116)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:78)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.withSourceFile(ScalaSourceFile.scala:66)
+	at org.scalaide.core.internal.decorators.markoccurrences.ScalaOccurrencesFinder.findOccurrences(ScalaOccurrencesFinder.scala:50)
+	at org.scalaide.ui.internal.editor.MarkOccurrencesEditorExtension$class.getAnnotations(MarkOccurrencesEditorExtension.scala:104)
+	at org.scalaide.ui.internal.editor.MarkOccurrencesEditorExtension$class.org$scalaide$ui$internal$editor$MarkOccurrencesEditorExtension$$performOccurrencesUpdate(MarkOccurrencesEditorExtension.scala:95)
+	at org.scalaide.ui.internal.editor.MarkOccurrencesEditorExtension$$anonfun$1$$anonfun$apply$4$$anonfun$apply$2.apply$mcV$sp(MarkOccurrencesEditorExtension.scala:75)
+	at org.scalaide.ui.internal.editor.MarkOccurrencesEditorExtension$$anonfun$1$$anonfun$apply$4$$anonfun$apply$2.apply(MarkOccurrencesEditorExtension.scala:75)
+	at org.scalaide.ui.internal.editor.MarkOccurrencesEditorExtension$$anonfun$1$$anonfun$apply$4$$anonfun$apply$2.apply(MarkOccurrencesEditorExtension.scala:75)
+	at org.scalaide.util.Utils$.debugTimed(Utils.scala:28)
+	at org.scalaide.ui.internal.editor.MarkOccurrencesEditorExtension$$anonfun$1$$anonfun$apply$4.apply(MarkOccurrencesEditorExtension.scala:74)
+	at org.scalaide.ui.internal.editor.MarkOccurrencesEditorExtension$$anonfun$1$$anonfun$apply$4.apply(MarkOccurrencesEditorExtension.scala:72)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.editor.MarkOccurrencesEditorExtension$$anonfun$1.apply(MarkOccurrencesEditorExtension.scala:72)
+	at org.scalaide.ui.internal.editor.MarkOccurrencesEditorExtension$$anonfun$1.apply(MarkOccurrencesEditorExtension.scala:71)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$1.run(EclipseUtils.scala:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
