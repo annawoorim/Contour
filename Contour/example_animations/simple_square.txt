@@ -1,0 +1,7 @@
+// Simple square animation!
+
+Start(225,225)	// Defines the starting point of the animation
+Right(50)	// Extend line 10 pixels right
+Down(50)	// Extend line 10 pixels down
+Left(50)	// Extend line 10 pixels left
+Up(50)		// Extend line 10 pixels up
