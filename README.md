@@ -6,4 +6,4 @@ Contour is a [domain specific language](https://en.wikipedia.org/wiki/Domain-spe
 This language is designed for anyone interested in creating digital art with code.
 No prior programming experience is needed.
 
-See the [installation guide](contour_installation.md) to get Contour, then [start animating](contour_instructions)!
+See the [installation guide](https://github.com/annawoorim/Contour/wiki/Installation) to get Contour, then [start animating](https://github.com/annawoorim/Contour/wiki/Creating-your-first-animation)!
